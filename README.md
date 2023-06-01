@@ -4,4 +4,6 @@
 # Delete EKS Cluster using eksctl
 > eksctl delete cluster --name demo-eks --region us-east-2 
 
+# Configure kubectl and Connect to the Cluster
+> aws eks update-kubeconfig --name your-cluster-name --region your-region
 
